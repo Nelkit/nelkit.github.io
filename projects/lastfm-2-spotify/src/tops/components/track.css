@@ -1,0 +1,41 @@
+.Track{
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-around;
+	min-height: 50px;
+	border-bottom: 1px solid #2B3034;
+}
+
+.Track:hover{
+	background: #2B3034;
+	cursor: pointer;
+}
+
+.Track-count{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 10%;
+	max-width: 40px;
+}
+
+.Track-name{
+	display: flex;
+	align-items:  center;
+	width: 90%;
+}
+
+.Track-artist{
+	display: flex;
+	align-items: center;
+}
+
+.Track-image{
+	margin-right: 5px;
+	border:2px solid #2B3034;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+	height: 38px;
+	width: 38px;
+}

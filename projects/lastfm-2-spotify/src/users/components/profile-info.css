@@ -1,0 +1,17 @@
+.ProfileInfo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ProfileInfo img{
+	display: block;
+	border-radius: 50%;
+	border: 2px solid gray;
+}
+
+.ProfileInfo-auth{
+	text-decoration:none;
+	color:white;
+	background: #00D970;
+}

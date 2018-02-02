@@ -1,0 +1,30 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+	padding: 0px;
+	margin: 0px;
+}
+
+.btn{
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	display: block;	
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+}
+
+.btn:focus, .field:focus{
+	outline: none;
+}
+
+.HomeLayout{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	min-height: 100vh;
+}
