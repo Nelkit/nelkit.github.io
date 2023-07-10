@@ -45,12 +45,6 @@
 				</a>
 			</li>
 			<li class="itemMenu">
-				<a href="/apps/#!/blog" class="descrip">
-					<i class="icon flaticon-blog"></i>
-					Blog
-				</a>
-			</li>
-			<li class="itemMenu">
 				<a href="#contact" id="contactMenu" class="descrip">
 					<i class="icon flaticon-contact"></i>
 					Contacto
@@ -139,26 +133,57 @@
 				<div class="columns grid-12">
 					<h3 class="titleSection">Mis Proyectos</h3>
 				</div>
-				<div class="columns grid-4" ng-repeat="project in projects">
-					<a href="/apps/#!/projects/{{project.id}}">
+				<div class="columns grid-4" >
+					<a href="projects/kolbi-portal/web/#/">
 						<figure class="figPortfolio">
-							<img class="imgPortfolio" ng-src="{{project.featuredImage}}" width="100%" alt="">
+							<img class="imgPortfolio" ng-src="img/kolbi-preview.png" width="100%" alt="">
 							<figcaption>
 								<div class="categoryProject">
-									<span ng-repeat="item in project.categoryRel">{{item.name}}</span>
+									<span >HTML</span>
+									<span >CSS</span>
+									<span >AngularJS</span>
 								</div>
-								<span class="titlePortfolio">{{project.title}}</span>
+								<span class="titlePortfolio">Kolbi Portal</span>
 								<hr>
-								<span class="subtitlePortfolio">{{project.subtitle}}</span>
+								<span class="subtitlePortfolio">Diseño de un portal de promociones para la empresa Kolbi Costa Rica</span>
 							</figcaption>
 						</figure>						
 					</a>
 				</div>
-				<div class="{{spinState}} sk-spinner sk-spinner-three-bounce">
-					<div class="sk-bounce1"></div>
-					<div class="sk-bounce2"></div>
-					<div class="sk-bounce3"></div>
-				</div>				
+				<div class="columns grid-4">
+					<a href="projects/preview-frontend-apple-5x1/">
+						<figure class="figPortfolio">
+							<img class="imgPortfolio" ng-src="img/apple5x1-preview.png" width="100%" alt="">
+							<figcaption>
+								<div class="categoryProject">
+									<span>HTML</span>
+									<span >CSS</span>
+									<span >AngularJS</span>
+								</div>
+								<span class="titlePortfolio">Blog Apple 5x1 </span>
+								<hr>
+								<span class="subtitlePortfolio">Diseño de un portal de noticias para el blog de noticias de Apple 5x1 de España</span>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="columns grid-4">
+					<a href="projects/site-juice-computer/">
+						<figure class="figPortfolio">
+							<img class="imgPortfolio" ng-src="img/juicecomputer-preview.png" width="100%" alt="">
+							<figcaption>
+								<div class="categoryProject">
+									<span>HTML</span>
+									<span >CSS</span>
+									<span >Javascript</span>
+								</div>
+								<span class="titlePortfolio">Juice Computer </span>
+								<hr>
+								<span class="subtitlePortfolio">Diseño del landing page de la empresa Juice Computer</span>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 			</div>
 			<div class="bottomPortfolio" ng-if="projects.length == '6'">
 				<a href="/apps/#!/projects">Más Proyectos</a>
