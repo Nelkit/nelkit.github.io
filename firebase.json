@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "v1-nelkit-portfolio",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
